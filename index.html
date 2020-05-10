@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <h1>La météo</h1>
+  <span id="test"></span>
+  <div class="main" id="main">
+    <div class="Stage">
+      <i id="icone"></i>
+      <span>Heure  <i id="Heure"></i></span>
+      <span>Température  <i id="Temperature"></i> °C</span>
+    </div>
+    <div class="Stage">
+      <span>Lieux  <i id="Place"></i></span>
+      <span>Pays  <i id="Country"></i></span>
+    </div>
+    <div class="Third-stage">
+      <select id="Country-choice" title="Pour plus de précision renseigner un pays">
+        <option value="French">France</option>
+        <option value="German">Allemagne</option>
+        <option value="Spain">Espagne</option>
+        <option value="Russia">Russie</option>
+        <option value="Africa">Afrique</option>
+        <option value="Nord-America">Amérique du nord</option>
+        <option value="United kindom">Angleterre</option>
+        <option value="South-America">Amérique du sud</option>
+      </select>
+      <input type="text" id="Town-choice">
+      <button type="button" name="button">Prévisions</button>
+    </div>
+  </div>
+</body>
+</html>
+<script type="text/javascript" src="script.js"></script>
