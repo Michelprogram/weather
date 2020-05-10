@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+h1
+{
+  text-align: center;
+}
+.main
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+  width: 50%;
+  height: 300px;
+  border:2px solid black;
+  border-radius: 10px;
+}
+i
+{
+  font-size: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+}
+span
+{
+  font-size: 25px;
+}
+.Stage,.Third-stage
+{
+  margin-left: 5%;
+}
+.Stage
+{
+  font-size: 20px;
+
+}
+.Stage span:nth-child(2)
+{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Third-stage
+{
+  display: flex;
+  justify-content: space-around;
+}
+#icone
+{
+  font-size: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+select,input,button
+{
+  outline:none;
+}
+select
+{
+  width: 20%;
+  border-radius: 10px;
+}
+input
+{
+  border-radius: 10px;
+  border: 2px solid black;
+}
+button
+{
+  border-radius: 5px;
+  font-size: 20px;
+  border:1.5px black solid;
+  box-shadow: 5px 5px;
+}
