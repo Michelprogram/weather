@@ -11,7 +11,7 @@ Meteo();
 function Meteo(ville="Paris")
 {
   let requete = new XMLHttpRequest();
-  requete.open("GET", "http://api.weatherstack.com/current?access_key=9ae6934348bacf41f4369c88a914ab0a&query="+ville);
+  requete.open("GET", "http://api.weatherstack.com/current?access_key=/&query="+ville);
   requete.onreadystatechange = function() {
     if (this.readyState == XMLHttpRequest.DONE && this.status == 200) {
       var response = JSON.parse(this.responseText);
