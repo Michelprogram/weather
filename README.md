@@ -46,6 +46,10 @@
 <!-- ABOUT THE PROJECT -->
 ## 🧭 About The Project
 
+This project is a simple weather app that allows you to get the weather of a city in France. It uses the weatherstack API to get the weather data.
+
+⚠️ The API key is not included in the project, you will need to get one from the website.⚠️
+
 ### 🏗️ Built With
 
 List of technologies / frameworks used during the project.
